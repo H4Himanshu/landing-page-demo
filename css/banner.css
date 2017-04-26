@@ -1,0 +1,157 @@
+.banner
+{
+    background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url("../img/01.jpg");                 
+}
+.banner p,.banner h4
+{
+    color: #fff;
+}
+
+.banner-text-1
+{
+	text-align: center;
+	padding-top: 6%;
+	padding-bottom: 3%;
+}
+.banner-text-1 h4, .banner-text-1 h6
+{
+	color: #fff;
+	text-transform: uppercase;
+}
+/*.overlay-text-1,.overlay-text-4,.overlay-text-3,.overlay-text-4,.overlay-text-5
+{
+	margin-right: 5%;
+	margin-left: 5%;
+}*/
+@media  (min-width: 768px) {
+    div.col-sm-7.five-three {
+    width: 60% !important;
+    }
+
+    div.col-sm-5.five-two {
+    width: 40% !important;
+    }
+}
+.right-box-1 p,.right-box-2 p
+{
+	width: 90%;
+}
+.banner-text-2 p
+{
+	text-align: justify;
+}
+.banner-text-2 h4
+{
+	padding-left: 9%;
+	margin-top: 1%;
+	margin-bottom: 3%;  
+}
+.btn-warning{
+    -webkit-box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow:    0px 3px 0px rgba(0, 0, 0, 0.3);
+    box-shadow:         0px 3px 0px rgba(0, 0, 0, 0.3);
+}
+.btn-warning:active {
+    margin-top: 3px;
+    margin-bottom: -3px;
+}
+.left-box-1,.left-box-2,.left-box-3,.right-box-1,.right-box-2
+{
+   background: linear-gradient(rgba(20,20,20, .5),rgba(20,20,20, .5));
+   padding: 5px;
+}
+.banner-overlay-image
+{
+	padding-top: 3%;
+}
+.banner-btn
+{
+    padding-top: 30px ;
+    padding-bottom: 30px ;
+}
+.img-responsive
+{
+	display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+.img-sec
+{
+	text-align: center;
+}
+.img-sec img
+{
+	border-radius: 50%;
+    width: 165px;
+    height: 165px;
+    text-align: center;
+    border:2px solid transparent;
+}
+.img-sec p
+{
+    background-color: #ddaf40;
+    opacity: 0.9;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+    width: 115px;
+    height: 115px;
+    font-size: 14px;
+    color: #fff;
+}
+#choose
+{
+	margin-left: 13%;
+    margin-top: -73%;
+}
+#price
+{
+	margin-left: 13%;
+    margin-top: -73%;
+}
+#process
+{
+	margin-left: 14%;
+    margin-top: -75%;
+}
+#pickup
+{
+	margin-left: 13%;
+    margin-top: -68%;
+}
+#money
+{
+	margin-left: 13%;
+    margin-top: -68%;
+}
+.fancy {
+  line-height: 0.5;
+  text-align: center;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;  
+  font-size: 34px;
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-top: 5px solid white;
+  top: 8px;
+  width: 100%;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 10px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 10px;
+}

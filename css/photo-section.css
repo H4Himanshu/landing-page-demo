@@ -1,0 +1,42 @@
+.photo-section
+{
+	background-color: #fff4da;
+	padding-bottom: 25px;
+}
+.img-responsive
+{
+	display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+.photo-section-heading
+{
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+.des-name
+{
+	font-size: 12px;
+	line-height: 10px;
+	font-style: italic;
+}
+.profile-name
+{
+	line-height: 25px;
+}
+.pic-sec
+{
+	padding: 3px 3px 15px 3px;
+	background-color: #293843;
+	color: #fff;
+}
+.pic-sec img
+{
+	border:2px solid lightgrey;
+}
+.sell-btn
+{
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
